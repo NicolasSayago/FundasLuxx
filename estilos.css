@@ -1,0 +1,418 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size:20px;
+}
+
+.navbar-brand img {
+    width: 50% !important; 
+}
+
+.navbar-collapse {
+    justify-content: flex-end; 
+}
+
+h1{
+    color:orange;
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    padding: 20px;
+}
+
+h3{
+    color:green;    
+}
+
+
+.estrellas {
+    color: yellow;
+}
+
+main .nuestras-fundas {
+    padding: 30px 0 60px 0;
+}
+
+.contenedor-nuestras-fundas {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+}
+
+.imagen-nuestras-fundas {
+    padding: 20px;
+    width: 48%; 
+}
+
+.nuestras-fundas .contenido-textos {
+    width: 48%; 
+}
+
+.contenido-textos h3 {
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span {
+    background: orange;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p {
+    padding: 0px 15px 30px 15px; 
+    font-weight: 300;
+    text-align: justify;
+}
+
+@media (max-width: 1000px) {
+    .contenedor-nuestras-fundas {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    .imagen-nuestras-fundas,
+    .nuestras-fundas .contenido-textos {
+        width: 80%; 
+    }
+    .imagen-nuestras-fundas{
+        width: 80%;
+    }
+
+}
+
+.portafolio{
+    background: #f2f2f2;
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.galeria{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8,200px);
+    padding: 20px;
+    grid-gap: 20px;
+}
+
+.item{
+    border: 5px solid black;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.item1{
+    background-image: url(/assets/Funda1.jpg);
+}
+
+.item2{
+    background-image: url(/assets/funda2.jpg)
+}
+
+.item3{
+    background-image: url(/assets/Funda3junta.jpg)
+}
+
+.item4{
+    background-image: url(/assets/Funda4.jpg)
+}
+
+.item5{
+    background-image: url(/assets/funda5.jpg)
+}
+
+.item6{
+    background-image: url(/assets/funda6.jpg)
+}
+
+.item7{
+    background-image: url(/assets/funda7-1.jpg)
+}
+
+.item8{
+    background-image: url(/assets/funda7-2.jpg)
+}
+
+@media only screen and (min-width:0px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4,150px);
+    }
+
+    .content-foo{
+        flex-direction: column;
+        border: none;
+    }
+
+}
+
+
+@media only screen and (min-width:350px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4,200px);
+    }
+}
+
+@media only screen and (min-width:700px){
+    .galeria{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(2,200px);
+    }
+}
+
+@media only screen and (min-width:900px){
+    .galeria{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(2,250px);
+    }
+}
+
+.cuadro-resena {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.cuadro-resena img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+.formularios {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    font-size: 15px;
+}
+
+.formularios h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.formularios label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.formularios input[type="text"],
+.formularios select,
+.formularios textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formularios textarea {
+    resize: vertical;
+}
+
+.formularios button {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formularios button:hover {
+    background-color: #ff7f00;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+}
+
+.contenedor-footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.content-foo h4 {
+    margin-bottom: 20px;
+}
+
+.content-foo p{
+    color: #ccc;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom:20px;
+    }
+
+.redes a {
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.redes a:hover {
+    color: #ff7f00;
+}
+
+/* Newsletter Bar */
+.newsletter-bar {
+    background-color: #212529;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+.newsletter-form button {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #ff7f00;
+}
+
+
+@media (min-width: 500px) {
+    .cuadro-resena {
+        max-width: 90%; /* Ancho máximo en dispositivos pequeños */
+        padding: 15px;
+    }
+    
+    .cuadro-resena img {
+        width: 250px; 
+        height: 250px;
+    }
+}
+
+/* Estilos para el cuadro de reseñas en dispositivos móviles */
+@media (max-width: 500px) {
+    .cuadro-resena {
+        max-width: 90%;
+        padding: 10px;
+        height: auto; 
+    }
+    
+    .cuadro-resena img {
+        width: 200px; 
+        height: 200px; 
+    }
+    
+    .cuadro-resena h3 {
+        font-size: 1.5rem; 
+    }
+    
+    .cuadro-resena p {
+        font-size: 1rem; 
+    }
+
+    .contenedor-footer{
+        flex-direction: column;
+}
+
+}
+
+.reseñaymas {
+    border: 5px solid #ccc; /* Grosor y color del borde */
+    padding: 20px; /* Espacio interno alrededor del contenido */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo */
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+
+/* contacto */
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* catalogo */
+
+.imagenes-catalogo {
+    font-size: 20px; /* Ajusta el tamaño de las imágenes */
+    text-align: center; /* Centra las imágenes horizontalmente */
+}
+
+.texto-barra {
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
