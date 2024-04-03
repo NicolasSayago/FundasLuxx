@@ -126,35 +126,35 @@ main .nuestras-fundas {
 }
 
 .item1{
-    background-image: url(/assets/Funda1.jpg);
+    background-image: url(./assets/Funda1.jpg);
 }
 
 .item2{
-    background-image: url(/assets/funda2.jpg)
+    background-image: url(./assets/funda2.jpg);
 }
 
 .item3{
-    background-image: url(/assets/Funda3junta.jpg)
+    background-image: url(./assets/Funda3junta.jpg);
 }
 
 .item4{
-    background-image: url(/assets/Funda4.jpg)
+    background-image: url(./assets/Funda4.jpg);
 }
 
 .item5{
-    background-image: url(/assets/funda5.jpg)
+    background-image: url(./assets/funda5.jpg);
 }
 
 .item6{
-    background-image: url(/assets/funda6.jpg)
+    background-image: url(./assets/funda6.jpg);
 }
 
 .item7{
-    background-image: url(/assets/funda7-1.jpg)
+    background-image: url(./assets/funda7-1.jpg);
 }
 
 .item8{
-    background-image: url(/assets/funda7-2.jpg)
+    background-image: url(./assets/funda7-2.jpg);
 }
 
 @media only screen and (min-width:0px){
