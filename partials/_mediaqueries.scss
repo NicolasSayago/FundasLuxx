@@ -1,0 +1,52 @@
+@media screen and (max-width: 1000px) {
+    .xtra {
+        display: none;
+    }
+
+    .contenedor-nuestras-fundas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-container{
+        width: 80%;
+    }
+
+    .imagen-nuestras-fundas{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .galeria {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(2, 250px);
+    }
+
+    .img-container{
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .galeria {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(2, 200px);
+    }
+    .img-container{
+        align-items: center;
+    }
+}
+
+@media (min-width: 500px) {
+    .cuadro-resena {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .cuadro-resena img {
+        width: 250px;
+        height: 250px;
+    }
+}
+

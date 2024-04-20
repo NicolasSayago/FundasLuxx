@@ -1,0 +1,33 @@
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+}
+
+.contenedor-footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.content-foo h4 {
+    margin-bottom: 20px;
+}
+
+.content-foo p {
+    color: #ccc;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 20px;
+}
+
+.redes a {
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.redes a:hover {
+    color: #ff7f00;
+}

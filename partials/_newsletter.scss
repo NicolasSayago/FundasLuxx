@@ -1,0 +1,28 @@
+.newsletter-bar {
+    background-color: #212529;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+.newsletter-form button {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #ff7f00;
+}
