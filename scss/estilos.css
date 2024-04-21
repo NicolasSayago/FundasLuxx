@@ -23,68 +23,12 @@ h3 {
   color: green;
 }
 
-.portafolio {
-  background: #f2f2f2;
-}
-.portafolio .contenedor {
-  padding: 60px 0;
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-  overflow: hidden;
-}
-.portafolio .contenedor .galeria {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  display: block;
-  height: auto;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(8, 200px);
-  padding: 20px;
-  grid-gap: 20px;
-}
-.portafolio .contenedor .galeria .item {
-  border: 5px solid black;
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-}
-.portafolio .contenedor .galeria .item1 {
-  background-image: url(/assets/Funda1.jpg);
-}
-.portafolio .contenedor .galeria .item2 {
-  background-image: url(/assets/funda2.jpg);
-}
-.portafolio .contenedor .galeria .item3 {
-  background-image: url(/assets/Funda3junta.jpg);
-}
-.portafolio .contenedor .galeria .item4 {
-  background-image: url(/assets/Funda4.jpg);
-}
-.portafolio .contenedor .galeria .item5 {
-  background-image: url(/assets/funda5.jpg);
-}
-.portafolio .contenedor .galeria .item6 {
-  background-image: url(/assets/funda6.jpg);
-}
-.portafolio .contenedor .galeria .item7 {
-  background-image: url(/assets/funda7-1.jpg);
-}
-.portafolio .contenedor .galeria .item8 {
-  background-image: url(/assets/funda7-2.jpg);
+.navbar-brand img {
+  width: 50%;
 }
 
-.reseñaymas {
-  border: 5px solid #ccc;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #f9f9f9;
-  margin: 20px auto;
-  width: 80%;
-  max-width: 600px;
+.navbar-collapse {
+  justify-content: flex-end;
 }
 
 .container-general {
@@ -100,19 +44,20 @@ h3 {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin: 0rem 2rem 0rem 2rem;
+  margin: 0 2rem;
 }
 .container-general .contenedor-nuestras-fundas .img-container {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-.container-general .contenedor-nuestras-fundas .img-container .imagen-nuestras-fundas {
+.container-general .contenedor-nuestras-fundas .imagen-nuestras-fundas {
   width: 400px;
 }
 .container-general .contenedor-nuestras-fundas .text-container {
   display: flex;
   flex-direction: column;
+  background-color: red;
   width: 600px;
   gap: 0.5rem;
 }
@@ -123,169 +68,78 @@ h3 {
   text-align: center;
   width: 40px;
   height: 40px;
-  padding: 10px 15px 10px 15px;
-  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
   margin-right: 5px;
 }
 .container-general .contenedor-nuestras-fundas .text-container .title {
   color: green;
 }
 
-.navbar-brand img {
-  width: 50%;
+.portafolio {
+  background: #f2f2f2;
 }
 
-.navbar-collapse {
-  justify-content: flex-end;
+.contenedor {
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
 }
 
-.imagenes-catalogo {
-  font-size: 20px;
-  text-align: center;
-}
-
-.texto-barra {
-  text-align: center;
-}
-
-footer {
-  background-color: #343a40;
-  color: #fff;
-  padding: 0px;
-  text-align: center;
-}
-
-.contenedor-footer {
-  padding: 10px;
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 30px;
-}
-
-.content-foo h4 {
-  margin-bottom: 20px;
-}
-
-.content-foo p {
-  color: #ccc;
-  border-bottom: 1px solid #f2f2f2;
-  padding-bottom: 20px;
-}
-
-.redes a {
-  color: #fff;
-  margin: 0 10px;
-  transition: color 0.3s ease;
-}
-
-.redes a:hover {
-  color: #ff7f00;
-}
-
-.formularios {
-  background-color: #f9f9f9;
+.galeria {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 200px);
   padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  grid-gap: 20px;
+}
+.galeria .item {
+  border: 5px solid black;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.galeria .item1 {
+  background-image: url(/assets/Funda1.jpg);
+}
+.galeria .item2 {
+  background-image: url(/assets/funda2.jpg);
+}
+.galeria .item3 {
+  background-image: url(/assets/Funda3junta.jpg);
+}
+.galeria .item4 {
+  background-image: url(/assets/Funda4.jpg);
+}
+.galeria .item5 {
+  background-image: url(/assets/funda5.jpg);
+}
+.galeria .item6 {
+  background-image: url(/assets/funda6.jpg);
+}
+.galeria .item7 {
+  background-image: url(/assets/funda7-1.jpg);
+}
+.galeria .item8 {
+  background-image: url(/assets/funda7-2.jpg);
+}
+
+.reseñaymas {
+  border: 5px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
   margin: 20px auto;
   width: 80%;
   max-width: 600px;
-  font-size: 15px;
-}
-
-.formularios h2 {
-  font-size: 35px;
-  text-align: center;
-}
-
-.formularios label {
-  display: block;
-  margin-bottom: 5px;
-  font-size: 15px;
-}
-
-.formularios input[type=text],
-.formularios select,
-.formularios textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.formularios textarea {
-  resize: vertical;
-}
-
-.formularios button {
-  background-color: orange;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.formularios button:hover {
-  background-color: #ff7f00;
-}
-
-.order-form {
-  display: flex;
-  flex-direction: column;
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-label {
-  font-weight: bold;
-}
-
-input,
-input,
-textarea,
-select {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-textarea {
-  resize: vertical;
-}
-
-.newsletter-bar {
-  background-color: #212529;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-.newsletter-form input[type=email] {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  width: 250px;
-}
-
-.newsletter-form button {
-  background-color: orange;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.newsletter-form button:hover {
-  background-color: #ff7f00;
 }
 
 .estrellas {
@@ -304,7 +158,6 @@ textarea {
   width: 80%;
   max-width: 600px;
 }
-
 .cuadro-resena img {
   width: 100px;
   height: 100px;
@@ -313,46 +166,135 @@ textarea {
   display: block;
 }
 
-@media screen and (max-width: 1000px) {
-  .xtra {
-    display: none;
-  }
-  .contenedor-nuestras-fundas {
-    flex-direction: column;
-    align-items: center;
-  }
-  .text-container {
-    width: 80%;
-  }
-  .imagen-nuestras-fundas {
-    width: 80%;
-  }
+.imagenes-catalogo {
+  font-size: 20px;
+  text-align: center;
 }
-@media only screen and (min-width: 900px) {
-  .galeria {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(2, 250px);
-  }
-  .img-container {
-    align-items: center;
-  }
+.imagenes-catalogo .texto-barra {
+  text-align: center;
 }
-@media only screen and (min-width: 700px) {
-  .galeria {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(2, 200px);
-  }
-  .img-container {
-    align-items: center;
-  }
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 0px;
+  text-align: center;
 }
-@media (min-width: 500px) {
-  .cuadro-resena {
-    max-width: 90%;
-    padding: 15px;
-  }
-  .cuadro-resena img {
-    width: 250px;
-    height: 250px;
-  }
+footer .contenedor-footer {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+footer .content-foo h4 {
+  margin-bottom: 20px;
+}
+footer .content-foo p {
+  color: #ccc;
+  border-bottom: 1px solid #f2f2f2;
+  padding-bottom: 20px;
+}
+footer .redes a {
+  color: #fff;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+footer .redes a:hover {
+  color: #ff7f00;
+}
+
+.formularios {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  font-size: 15px;
+}
+.formularios h2 {
+  font-size: 35px;
+  text-align: center;
+}
+.formularios label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.formularios input[type=text],
+.formularios select,
+.formularios textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.formularios input[type=text] textarea,
+.formularios select textarea,
+.formularios textarea textarea {
+  resize: vertical;
+}
+.formularios button {
+  background-color: orange;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.formularios button:hover {
+  background-color: #ff7f00;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+}
+.order-form .form-group {
+  margin-bottom: 20px;
+}
+.order-form .form-group label {
+  font-weight: bold;
+}
+.order-form .form-group input,
+.order-form .form-group textarea,
+.order-form .form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.order-form .form-group input textarea,
+.order-form .form-group textarea textarea,
+.order-form .form-group select textarea {
+  resize: vertical;
+}
+
+.newsletter-bar {
+  background-color: #212529;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.newsletter-bar .newsletter-form input[type=email] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+.newsletter-bar .newsletter-form button {
+  background-color: orange;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.newsletter-bar .newsletter-form button:hover {
+  background-color: #ff7f00;
 }/*# sourceMappingURL=estilos.css.map */

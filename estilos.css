@@ -1,19 +1,19 @@
-/* * {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-size: 20px;
-} */
+} 
 
-/* .navbar-brand img {
+.navbar-brand img {
     width: 50%;
-}
+} 
 
 .navbar-collapse {
     justify-content: flex-end;
-} */
+} 
 
-/* h1 {
+h1 {
     color: orange;
     font-family: fantasy;
     font-size: 50px;
@@ -28,24 +28,36 @@ h2 {
 
 h3 {
     color: green;
-} */
+} 
 
-/* .estrellas {
+.estrellas {
     color: yellow;
     background-color: rgba(128, 128, 128, 0.639);
     padding: .4rem;
     border-radius: 1rem;
-} */
+}
 
 
-/* .contenedor-nuestras-fundas {
+.contenedor-nuestras-fundas {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     margin: 0rem 2rem 0rem 2rem;
-} */
+}
 
+/* IMAGEN Y TEXTO QUE NO CONSIGO DEJHAR RESPONSIVE */
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: .5rem;
+}
+
+.imagen-nuestras-fundas {
+    width: 400px;
+}
 
 /* .contenido-textos h3 {
     margin-bottom: 15px;
@@ -60,7 +72,7 @@ h3 {
 Esto no sirve */
 
 
-/* @media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     .xtra {
         display: none;
     }
@@ -77,9 +89,9 @@ Esto no sirve */
     .imagen-nuestras-fundas{
         width: 80%;
     }
-} */
+}
 
-/* .portafolio {
+.portafolio {
     background: #f2f2f2;
 }
 
@@ -89,9 +101,9 @@ Esto no sirve */
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
-} */
+}
 
-/* .galeria {
+.galeria {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -141,9 +153,9 @@ Esto no sirve */
 
 .item8 {
     background-image: url(./assets/funda7-2.jpg);
-} */
+}
 
-/* @media only screen and (min-width: 0px) {
+@media only screen and (min-width: 0px) {
     .galeria {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(4, 150px);
@@ -177,6 +189,13 @@ Esto no sirve */
     .img-container{
         align-items: center;
     }
+    .text-container{
+        width: 80%;
+    }
+
+    .imagen-nuestras-fundas{
+        width: 80%;
+    }
 }
 
 @media only screen and (min-width: 900px) {
@@ -188,9 +207,18 @@ Esto no sirve */
     .img-container{
         align-items: center;
     }
-} */
 
-/* .cuadro-resena {
+    .text-container{
+        width: 80%;
+    }
+
+    .imagen-nuestras-fundas{
+        width: 80%;
+    }
+    
+}
+
+.cuadro-resena {
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 5px;
@@ -206,9 +234,9 @@ Esto no sirve */
     border-radius: 50%;
     margin: 0 auto 20px auto;
     display: block;
-} */
+}
 
-/* .formularios {
+.formularios {
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 5px;
@@ -256,10 +284,10 @@ Esto no sirve */
 
 .formularios button:hover {
     background-color: #ff7f00;
-} */
+}
 
 /* Footer */
-/* footer {
+footer {
     background-color: #343a40;
     color: #fff;
     padding: 0px;
@@ -291,10 +319,10 @@ Esto no sirve */
 
 .redes a:hover {
     color: #ff7f00;
-} */
+}
 
 /* Newsletter Bar */
-/* .newsletter-bar {
+.newsletter-bar {
     background-color: #212529;
     color: #fff;
     padding: 20px;
@@ -321,9 +349,9 @@ Esto no sirve */
 
 .newsletter-form button:hover {
     background-color: #ff7f00;
-} */
+}
 
-/* @media (min-width: 500px) {
+@media (min-width: 500px) {
     .cuadro-resena {
         max-width: 90%;
         padding: 15px;
@@ -333,10 +361,10 @@ Esto no sirve */
         width: 250px;
         height: 250px;
     }
-} */
+}
 
 /* Estilos para el cuadro de reseñas en dispositivos móviles */
-/* @media (max-width: 500px) {
+@media (max-width: 500px) {
     .cuadro-resena {
         max-width: 90%;
         padding: 10px;
@@ -359,9 +387,9 @@ Esto no sirve */
     .contenedor-footer {
         flex-direction: column;
     }
-} */
+}
 
-/* .reseñaymas {
+.reseñaymas {
     border: 5px solid #ccc;
     padding: 20px;
     border-radius: 10px;
@@ -369,11 +397,11 @@ Esto no sirve */
     margin: 20px auto;
     width: 80%;
     max-width: 600px;
-} */
+}
 
 /* contacto */
 
-/* .order-form {
+.order-form {
     display: flex;
     flex-direction: column;
 }
@@ -398,11 +426,11 @@ select {
 
 textarea {
     resize: vertical;
-} */
+}
 
 /* catalogo */
 
-/* .imagenes-catalogo {
+.imagenes-catalogo {
     font-size: 20px;
     text-align: center;
 }
@@ -413,7 +441,7 @@ textarea {
 
 /* nuevo */
 
-/* .container-general {
+.container-general {
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
@@ -430,16 +458,8 @@ textarea {
     gap: 2rem;
 }
 
-.imagen-nuestras-fundas {
-    width: 400px;
-}
 
-.text-container {
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    gap: .5rem;
-}
+
 
 .numerito {
     background: orange;
@@ -455,5 +475,5 @@ textarea {
 
 .title {
     color: green;
-} */
+}
 

@@ -7,72 +7,69 @@
     width: 80%;
     max-width: 600px;
     font-size: 15px;
-}
 
-.formularios h2 {
-    font-size: 35px;
-    text-align: center;
-}
+    h2 {
+        font-size: 35px;
+        text-align: center;
+    }
 
-.formularios label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 15px;
-}
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
 
-.formularios input[type="text"],
-.formularios select,
-.formularios textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
+    input[type="text"],
+    select,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
 
-.formularios textarea {
-    resize: vertical;
-}
+        textarea {
+            resize: vertical;
+        }
+    }
 
-.formularios button {
-    background-color: orange;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
+    button {
+        background-color: orange;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
 
-.formularios button:hover {
-    background-color: #ff7f00;
+        &:hover {
+            background-color: #ff7f00;
+        }
+    }
 }
-
-// contacto
 
 .order-form {
     display: flex;
     flex-direction: column;
-}
 
-.form-group {
-    margin-bottom: 20px;
-}
+    .form-group {
+        margin-bottom: 20px;
 
-label {
-    font-weight: bold;
-}
+        label {
+            font-weight: bold;
+        }
 
-input,
-input,
-textarea,
-select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
 
-textarea {
-    resize: vertical;
+            textarea {
+                resize: vertical;
+            }
+        }
+    }
 }
