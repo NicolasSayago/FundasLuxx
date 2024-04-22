@@ -11,6 +11,7 @@ h1 {
   font-family: fantasy;
   font-size: 50px;
   text-align: center;
+  animation: 3s ease-in 0s opacityH1;
 }
 
 h2 {
@@ -24,14 +25,44 @@ h3 {
   color: green;
 }
 
+.whatsapp {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  font-size: 2rem;
+  border-radius: 15px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  cursor: pointer;
+}
+
+@keyframes opacityH1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .navbar-brand img {
   width: 50%;
+  animation: 1s ease-in 0s slidein;
 }
 
 .navbar-collapse {
   justify-content: flex-end;
 }
 
+@keyframes slidein {
+  from {
+    transform: translateY(-70px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
 .container-general {
   display: flex;
   flex-direction: column;
@@ -101,34 +132,43 @@ h3 {
   padding: 20px;
   grid-gap: 20px;
 }
-.galeria .item {
+
+.item {
   border: 5px solid black;
   background-size: cover;
   background-position: center;
   border-radius: 10px;
 }
-.galeria .item1 {
+
+.item1 {
   background-image: url(/assets/Funda1.jpg);
 }
-.galeria .item2 {
+
+.item2 {
   background-image: url(/assets/funda2.jpg);
 }
-.galeria .item3 {
+
+.item3 {
   background-image: url(/assets/Funda3junta.jpg);
 }
-.galeria .item4 {
+
+.item4 {
   background-image: url(/assets/Funda4.jpg);
 }
-.galeria .item5 {
+
+.item5 {
   background-image: url(/assets/funda5.jpg);
 }
-.galeria .item6 {
+
+.item6 {
   background-image: url(/assets/funda6.jpg);
 }
-.galeria .item7 {
+
+.item7 {
   background-image: url(/assets/funda7-1.jpg);
 }
-.galeria .item8 {
+
+.item8 {
   background-image: url(/assets/funda7-2.jpg);
 }
 

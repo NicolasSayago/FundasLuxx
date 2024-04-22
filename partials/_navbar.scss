@@ -1,7 +1,20 @@
 .navbar-brand img {
     width: 50%;
+    animation: 1s ease-in 0s slidein;
 }
 
 .navbar-collapse {
     justify-content: flex-end;
+}
+
+@keyframes slidein {
+    from {
+        transform: translateY(-70px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
