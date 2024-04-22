@@ -73,3 +73,10 @@
         }
     }
 }
+
+.container {
+    .container-select {
+        display: flex;
+        flex-direction: column;
+    }
+}

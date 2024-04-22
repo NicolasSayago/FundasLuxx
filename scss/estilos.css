@@ -10,6 +10,7 @@ h1 {
   color: orange;
   font-family: fantasy;
   font-size: 50px;
+  text-align: center;
 }
 
 h2 {
@@ -57,7 +58,6 @@ h3 {
 .container-general .contenedor-nuestras-fundas .text-container {
   display: flex;
   flex-direction: column;
-  background-color: red;
   width: 600px;
   gap: 0.5rem;
 }
@@ -96,8 +96,8 @@ h3 {
   display: block;
   height: auto;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(8, 200px);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(2, 200px);
   padding: 20px;
   grid-gap: 20px;
 }
@@ -196,7 +196,6 @@ footer .content-foo p {
 }
 footer .redes a {
   color: #fff;
-  margin: 0 10px;
   transition: color 0.3s ease;
 }
 footer .redes a:hover {
@@ -273,6 +272,11 @@ footer .redes a:hover {
   resize: vertical;
 }
 
+.container .container-select {
+  display: flex;
+  flex-direction: column;
+}
+
 .newsletter-bar {
   background-color: #212529;
   color: #fff;
@@ -297,4 +301,56 @@ footer .redes a:hover {
 }
 .newsletter-bar .newsletter-form button:hover {
   background-color: #ff7f00;
+}
+
+@media screen and (max-width: 1000px) {
+  .container-general .contenedor-nuestras-fundas {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-general .contenedor-nuestras-fundas .text-container {
+    width: 80%;
+  }
+  .container-general .contenedor-nuestras-fundas .imagen-nuestras-fundas {
+    width: 80%;
+  }
+  .container-general .contenedor-nuestras-fundas .img-container {
+    display: flex;
+    align-items: center;
+  }
+  .container-general .contenedor-nuestras-fundas .img-container .xtra {
+    display: none;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .galeria {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 350px);
+  }
+}
+@media (min-width: 500px) {
+  .cuadro-resena img {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media (max-width: 500px) {
+  .galeria {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 200px);
+  }
+  .img-container {
+    align-items: center;
+  }
+  .cuadro-resena {
+    max-width: 90%;
+    padding: 15px;
+  }
+  .cuadro-resena img {
+    width: 150px;
+    height: 150px;
+  }
+  .contenedor-footer {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=estilos.css.map */
