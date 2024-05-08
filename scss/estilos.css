@@ -152,7 +152,7 @@ h3 {
   left: 0;
   width: 50%;
   height: 100%;
-  background-image: url("../assets/Funda2.jpg");
+  background-image: url("../assets/funda2.jpg");
   background-size: cover;
   opacity: 0.3;
 }
@@ -242,7 +242,7 @@ h3 {
 }
 
 .item2 {
-  background-image: url("../assets/Funda2.jpg");
+  background-image: url("../assets/funda2.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -252,7 +252,7 @@ h3 {
 }
 
 .item3 {
-  background-image: url("../assets/Funda3.jpg");
+  background-image: url("../assets/funda3.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -262,7 +262,7 @@ h3 {
 }
 
 .item4 {
-  background-image: url("../assets/Funda4.jpg");
+  background-image: url("../assets/funda4.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -272,7 +272,7 @@ h3 {
 }
 
 .item5 {
-  background-image: url("../assets/Funda5.jpg");
+  background-image: url("../assets/funda5.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -282,7 +282,7 @@ h3 {
 }
 
 .item6 {
-  background-image: url("../assets/Funda6.jpg");
+  background-image: url("../assets/funda6.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -292,7 +292,7 @@ h3 {
 }
 
 .item7 {
-  background-image: url("../assets/Funda7.jpg");
+  background-image: url("../assets/funda7.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -302,7 +302,7 @@ h3 {
 }
 
 .item8 {
-  background-image: url("../assets/Funda8.jpg");
+  background-image: url("../assets/funda8.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 10px;
