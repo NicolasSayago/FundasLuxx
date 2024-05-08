@@ -1,23 +1,39 @@
+.newsletterfondo{
+    margin-top: 40px;
+    background-color: white;
+}
+
+.newsletterfondo h3 {
+    color: orange;
+}
+
 .newsletter-bar {
-    background-color: #212529;
     color: #fff;
     padding: 20px;
-    text-align: center;
+    display: flex;
+    display: inline-block;
+    margin-bottom: 30px;
 
-    .newsletter-form {
-        input[type="email"] {
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            margin-bottom: 10px;
-            width: 250px;
-        }
+.correo{
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+    margin-right: 50px;
 
-        button {
+}
+
+.suscribirse{
             background-color: orange;
             color: #fff;
+            font-size: 16px;
+            padding-top: 5px;
+            padding-bottom: 5px;
             border: none;
-            padding: 10px 20px;
+            width: 250px;
+            height: 30px;
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s ease;
@@ -27,4 +43,3 @@
             }
         }
     }
-}

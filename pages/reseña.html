@@ -18,38 +18,42 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="../assets/Logo.jpg" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/catalogo.html">Catalogo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/pediya.html">Pedi Ya</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Reseñas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                        </li>
-                    </ul>
+        <div class="colornav">
+            <nav class="navbar navbar-expand-sm navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="../assets/Logo.jpg" alt="Logo FondosLuxx"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/catalogo.html">Catalogo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/pediya.html">Pedi Ya</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><span>Reseñas</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+            </nav>
+        </div>
+        <div class="colornav">
+            <div class="p-2 m-0 bg-light text-dark text-center">
+                <h1>Fundas Luxx</h1>
+                <p>Lleva tu creatividad al límite y nosotros lo hacemos realidad!</p>
             </div>
-        </nav>
-
-        <div class="p-5 m-0 bg-secondary text-white text-center">
-            <h1>Fundas Luxx</h1>
-            <p>Lleva tu creatividad al límite y nosotros lo hacemos realidad!</p>
+        </div>
         </div>
     </header>
 
@@ -57,55 +61,48 @@
 
         <section>
             <h2>RESEÑAS DE USUARIOS: </h2>
-            <!-- Carousel PARA RESEÑAS-->
-            <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-                <!-- The slideshow/carousel -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <section class="cuadro-resena persona1">
-                            <img src="../assets/persona1.jpg" alt="Persona 1">
-                            <h3>Reseña de pepito123 <span class="estrellas">★★★★☆</span>:</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. ...</p>
-                        </section>
-                    </div>
-                    <div class="carousel-item">
-                        <section class="cuadro-resena persona2">
-                            <img src="../assets/persona2.jpg" alt="Persona 1">
-                            <h3>Reseña de otro usuario <span class="estrellas">★★★★★</span>:</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. ...</p>
-                        </section>
-                    </div>
-                    <div class="carousel-item">
-                        <section class="cuadro-resena persona2">
-                            <img src="../assets/persona2.jpg" alt="Persona 2">
-                            <h3>Reseña de otro usuario <span class="estrellas">★★★★★</span>:</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. ...</p>
-                        </section>
-                    </div>
-                    <div class="carousel-item">
-                        <section class="cuadro-resena persona2">
-                            <img src="../assets/persona1.jpg" alt="Persona 2">
-                            <h3>Reseña de otro usuario <span class="estrellas">★★★★★</span>:</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa eligendi iure cum, quo
-                                nostrum velit, magnam blanditiis voluptates error optio, voluptate quae vel impedit fuga
-                                ab sequi exercitationem suscipit in.</p>
-                        </section>
-                    </div>
-                </div>
-
-                <!-- Left and right controls/icons -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
+            <div class="container-reseña">
+                <section class="cuadro-resena persona1">
+                    <img src="../assets/persona1.jpg" alt="Persona 1">
+                    <h3>Reseña de María <span class="estrellas">★★★★★</span>:</h3>
+                    <p>"¡Increíble experiencia! Pedí una funda con un diseño personalizado y quedó perfecta. La calidad del material es excelente y el proceso de compra fue muy sencillo. Recomiendo totalmente esta tienda."</p>
+                </section>
+            
+                <section class="cuadro-resena persona2">
+                    <img src="../assets/persona2.jpg" alt="Persona 2">
+                    <h3>Reseña de Martín <span class="estrellas">★★★★☆</span>:</h3>
+                    <p>"Estoy muy satisfecho con mi funda personalizada. El diseño que elegí se ve increíble y la funda encaja perfectamente con mi teléfono. Además, el envío fue rápido y el servicio al cliente excelente."</p>
+                </section>
+            
+                <section class="cuadro-resena persona3">
+                    <img src="../assets/persona3.jpg" alt="Persona 3">
+                    <h3>Reseña de Jazmín<span class="estrellas">★★★★☆</span>:</h3>
+                    <p>"¡Una funda única! Compré una funda con un diseño original y quedé encantada. La atención al cliente fue excepcional y el resultado final superó mis expectativas. Definitivamente volveré por más fundas personalizadas."</p>
+                </section>
+            
+                <section class="cuadro-resena persona4">
+                    <img src="../assets/persona4.jpg" alt="Persona 4">
+                    <h3>Reseña de Lucía<span class="estrellas">★★★★☆</span>:</h3>
+                    <p>"Mi funda personalizada es perfecta. El diseño que elegí se ve genial y todos me preguntan dónde la conseguí. ¡Gracias por un producto de calidad y un servicio excelente!"</p>
+                </section>
+            
+                <section class="cuadro-resena persona5">
+                    <img src="../assets/persona5.jpg" alt="Persona 5">
+                    <h3>Reseña de Joana<span class="estrellas">★★★★★</span>:</h3>
+                    <p>"Estoy muy contenta con mi nueva funda personalizada. El diseño es único y la calidad del material es excelente. Sin duda, recomendaré esta tienda a mis amigos."</p>
+                </section>
+            
+                <section class="cuadro-resena persona6">
+                    <img src="../assets/persona6.jpg" alt="Persona 6">
+                    <h3>Reseña de Pedro<span class="estrellas">★★★★★</span>:</h3>
+                    <p>"Compré una funda personalizada para mi teléfono y estoy impresionado. El diseño quedó exactamente como lo imaginé y la funda protege muy bien. Excelente servicio y producto de calidad."</p>
+                </section>
             </div>
-        </section>
 
-        <form class="formularios">
-            <h2>Dejanos tu reseña!:</h2>
+                <h2>¡Dejanos tu reseña!:</h2>
+
+        <form class="formularios">            
             <label for="nombre">Tu Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
 
@@ -127,19 +124,22 @@
 
             <button type="submit">Enviar</button>
         </form>
-        </form>
+
+            <!-- boton soporte -->
+                <a href="https://wa.me/XXXXXXXXXX" className='whatsapp' target='e_blank'><i
+                    class="fa-brands fa-whatsapp whatsapp"></i></a>
+            <!-- fin boton soporte -->
 
     </main>
 
     <footer>
-
-        <!-- Barra de Newsletter -->
-        <div class="newsletter-bar">
+        <div class="newsletterfondo">
             <h3>Suscribite a nuestro Newsletter</h3>
-            <form class="newsletter-form" action="/suscripcion" method="post">
-                <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
-                <button type="submit">Suscribirse</button>
-            </form>
+            <div class="newsletter-bar">
+                <input class="correo" type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+                <button class="suscribirse" type="submit">Suscribirse</button>
+                </form>
+            </div>
         </div>
 
         <div class="contenedor-footer">

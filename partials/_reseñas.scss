@@ -1,24 +1,34 @@
 .estrellas {
-    color: yellow;
-    background-color: rgba(128, 128, 128, 0.639);
+    color: orange;
     padding: .4rem;
     border-radius: 1rem;
 }
 
+
+.carousel-slide{
+    background-color: blue($color: #000000);
+}
+
 .cuadro-resena {
-    background-color: #f9f9f9;
+    background-color: #eee8e8;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     margin: 20px auto;
     width: 80%;
-    max-width: 600px;
+    max-width: 100%;
 
     img {
-        width: 100px;
-        height: 100px;
+        width: 50%;
+        height: 50%;
         border-radius: 50%;
         margin: 0 auto 20px auto;
-        display: block;
     }
+}
+
+.container-reseña {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px;
 }

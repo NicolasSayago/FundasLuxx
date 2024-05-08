@@ -1,4 +1,10 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Adore You";
+  src: url(/Fuentes/Adore\ You.ttf);
+  font-weight: bold;
+  font-style: bold;
+}
 * {
   padding: 0;
   margin: 0;
@@ -7,11 +13,15 @@
 }
 
 h1 {
+  font-family: "Adore You";
   color: orange;
-  font-family: fantasy;
-  font-size: 50px;
+  font-size: 100px;
   text-align: center;
   animation: 3s ease-in 0s opacityH1;
+}
+
+.tjumbo {
+  font-family: "Pacifico", cursive;
 }
 
 h2 {
@@ -47,6 +57,7 @@ h3 {
 .navbar-brand img {
   width: 50%;
   animation: 1s ease-in 0s slidein;
+  border-radius: 50%;
 }
 
 .navbar-collapse {

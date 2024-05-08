@@ -2,8 +2,113 @@
     font-size: 20px;
     text-align: center;
 
-.texto-barra {
+    .texto-barra {
+        text-align: center;
+    }
+
+}
+
+.contenedor-background {
+    position: relative;
+    width: 100%; 
+    height: 100%;
+    overflow: auto;
+    padding: 50px;
+}
+
+.fondo {
+    z-index: -1;
+    width: 50%;
+    height: 50%;
+    background-size: cover; /* Ajusta el tamaño para cubrir el contenedor */
+    opacity: 0.2;
+    position:absolute;
+}
+
+.fondo-top-left {
+    top: 0;
+    left: 0;
+    background-image: url('../assets/Funda1.jpg');
+}
+
+.fondo-top-right {
+
+    top: 0;
+    right: 0;
+    background-image: url('../assets/funda2.jpg');
+}
+
+.fondo-bottom-left {
+    bottom: 0;
+    left: 0;
+    background-image: url('../assets/funda3.jpg');
+}
+
+.fondo-bottom-right { 
+    bottom: 0;
+    right: 0;
+    background-image: url('../assets/funda4.jpg');
+}
+
+
+
+.itemnuestrasfundas h2{
+    color:$colorverde;
+}
+
+.margenselect{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cajascatalogo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.funda-precio {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    background-color: $colortitulo;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 20%;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+
+.fundaseleccionada {
+    text-align: center;
+    p{
+        color: white;
+        font-family: $fuentegeneral;
+        font-weight: bold;
+    }
+
+}
+
+.precio {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
     text-align: center;
 }
 
+}
+
+.encargatupedido {
+    display: flex;
+    align-items: baseline;
+    padding: 10px;
+    background-color: $colortitulo;
+    align-content: center;
+    border-radius: 20px;
 }

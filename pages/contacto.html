@@ -23,45 +23,48 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="../assets/Logo.jpg" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./catalogo.html">Catalogo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pediya.html">Pedi Ya</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./reseña.html">Reseñas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
-                        </li>
-                    </ul>
+        <div class="colornav">
+            <nav class="navbar navbar-expand-sm navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="../assets/Logo.jpg" alt="Logo FondosLuxx"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./catalogo.html">Catalogo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pediya.html">Pedi Ya</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./reseña.html">Reseñas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><span>Contacto</span></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+            </nav>
+        </div>
+        <div class="colornav">
+            <div class="p-2 m-0 bg-light text-dark text-center">
+                <h1>Fundas Luxx</h1>
+                <p>Lleva tu creatividad al límite y nosotros lo hacemos realidad!</p>
             </div>
-        </nav>
-
-        <div class="p-5 m-0 bg-secondary text-white text-center">
-            <h1>Fundas Luxx</h1>
-            <p>Lleva tu creatividad al límite y nosotros lo hacemos realidad!</p>
         </div>
         </div>
     </header>
 
     <main>
-        <div class="formularios">
-            <h2>Formulario de Contacto</h2>
+        <h2>Formulario de Contacto</h2>
+        <div class="formularios">            
             <form action="#" method="POST" class="contact-form">
                 <div class="form-group">
                     <label for="name">Nombre completo:</label>
@@ -83,17 +86,21 @@
             </form>
         </div>
 
+            <!-- boton soporte -->
+                <a href="https://wa.me/XXXXXXXXXX" className='whatsapp' target='e_blank'><i
+                    class="fa-brands fa-whatsapp whatsapp"></i></a>
+            <!-- fin boton soporte -->
 
     </main>
 
     <footer>
-
-        <div class="newsletter-bar">
+        <div class="newsletterfondo">
             <h3>Suscribite a nuestro Newsletter</h3>
-            <form class="newsletter-form" action="/suscripcion" method="post">
-                <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
-                <button type="submit">Suscribirse</button>
-            </form>
+            <div class="newsletter-bar">
+                <input class="correo" type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+                <button class="suscribirse" type="submit">Suscribirse</button>
+                </form>
+            </div>
         </div>
 
         <div class="contenedor-footer">
@@ -119,7 +126,6 @@
         </div>
 
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">

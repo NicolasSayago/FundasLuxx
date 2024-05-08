@@ -3,28 +3,36 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 20px;
+    font-family: $fuentegeneral;
 }
 
 h1 {
-    color: orange;
-    font-family: fantasy;
-    font-size: 50px;
+    color: $colortitulo;
+    font-family: $fuenteh;
+    font-size: 5rem;
     text-align: center;
     animation: 3s ease-in 0s opacityH1;
 }
 
 h2 {
+    color: $colortituloytexto;
     text-align: center;
     font-size: 30px;
-    font-family: fantasy;
+    font-family: $fuentehotros;
     padding: 20px;
 }
 
 h3 {
-    color: green;
+    color: $colorverde;
+    font-family: $fuentehotros;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
 }
 
 .whatsapp {
+    z-index: 2;
     position: fixed;
     bottom: 5%;
     right: 5%;

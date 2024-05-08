@@ -1,10 +1,26 @@
 .navbar-brand img {
     width: 50%;
     animation: 1s ease-in 0s slidein;
+    border-radius: 50%;
+    border: 3px solid #fff;
 }
 
 .navbar-collapse {
     justify-content: flex-end;
+}
+
+.nav-link span{
+    font-weight: 900;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+.colornav{
+    background-color: orange;
+}
+
+.navbar-nav .nav-link {
+    color: white;
 }
 
 @keyframes slidein {
