@@ -1,15 +1,15 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Adore You";
-  src: url(/Fuentes/Adore\ You.ttf);
+  src: url(../Fuentes/Adore\ You.ttf);
 }
 @font-face {
   font-family: "StagSans";
-  src: url(/Fuentes/StagSans-Light.otf);
+  src: url(../Fuentes/StagSans-Light.otf);
 }
 @font-face {
   font-family: "StagSansBold";
-  src: url(/Fuentes/StagSans-Bold.otf);
+  src: url(../Fuentes/StagSans-Bold.otf);
 }
 * {
   padding: 0;
@@ -223,7 +223,7 @@ h3 {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 200px);
@@ -701,9 +701,6 @@ select {
   .grid-container {
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(1, 1fr);
-  }
-  .grid-container .background {
-    background-size: cover;
   }
   .grid-container .background {
     background-size: cover;
