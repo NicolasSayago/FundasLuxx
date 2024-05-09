@@ -141,11 +141,7 @@ h3 {
   left: 0;
   width: 50%;
   height: 100%;
-<<<<<<< HEAD
   background-image: url("../assets/funda1.jpg");
-=======
-  background-image: url("../assets/Funda1.jpg");
->>>>>>> a556bf9020c2f6fa5446ca2312993515578b3c67
   background-size: cover;
   opacity: 0.3;
 }
@@ -227,7 +223,7 @@ h3 {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 200px);
@@ -236,11 +232,7 @@ h3 {
 }
 
 .item1 {
-<<<<<<< HEAD
   background-image: url("../assets/funda1.jpg");
-=======
-  background-image: url("../assets/Funda1.jpg");
->>>>>>> a556bf9020c2f6fa5446ca2312993515578b3c67
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -390,11 +382,7 @@ h3 {
 .fondo-top-left {
   top: 0;
   left: 0;
-<<<<<<< HEAD
   background-image: url("../assets/funda1.jpg");
-=======
-  background-image: url("../assets/Funda1.jpg");
->>>>>>> a556bf9020c2f6fa5446ca2312993515578b3c67
 }
 
 .fondo-top-right {
@@ -406,21 +394,13 @@ h3 {
 .fondo-bottom-left {
   bottom: 0;
   left: 0;
-<<<<<<< HEAD
   background-image: url("../assets/funda3.jpg");
-=======
-  background-image: url("../assets/funda3parte1.jpg");
->>>>>>> a556bf9020c2f6fa5446ca2312993515578b3c67
 }
 
 .fondo-bottom-right {
   bottom: 0;
   right: 0;
-<<<<<<< HEAD
   background-image: url("../assets/funda4.jpg");
-=======
-  background-image: url("../assets/funda3parte2.jpg");
->>>>>>> a556bf9020c2f6fa5446ca2312993515578b3c67
 }
 
 .itemnuestrasfundas h2 {
@@ -721,12 +701,9 @@ select {
   .grid-container {
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(1, 1fr);
-<<<<<<< HEAD
   }
   .grid-container .background {
     background-size: cover;
-=======
->>>>>>> a556bf9020c2f6fa5446ca2312993515578b3c67
   }
   .grid-container .background {
     background-size: cover;
